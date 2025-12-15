@@ -1,0 +1,49 @@
+/* Add styles for AppLinkPage component */
+
+.app-link-page {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(145, 220, 138);
+  }
+  
+  .app-logo {
+    max-width: 110%;
+    height: auto;
+   margin-top: -80px;
+  }
+  
+  .app-store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .app-store-buttons img {
+    max-width: 250px; /* Adjust the size as needed */
+    margin-bottom: 150px;
+    animation: blink 5s infinite; /* Blinking animation */
+  }
+  
+  .app-link-page p {
+    font-size: large;
+    margin-bottom: 80px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(15) infinite; /* Typing animation */
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  

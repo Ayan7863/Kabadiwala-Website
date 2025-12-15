@@ -1,0 +1,219 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.footer
+{
+    padding: 30px 40px;
+    width: 100%;
+    background: #000000;
+    flex-direction: row;
+}
+.footer .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .about
+{
+   max-width: 30%;
+}
+.footer .container .about .detail p
+{
+    margin-top: 20px;
+    font-size: 10px;
+    color: #ffffff;
+}
+.footer .container .about .detail .icon
+{
+    margin-top: 20px;
+    display: flex;
+}
+.footer .container .about .detail .icon li
+{
+    margin-left: 20px;
+    list-style: none;
+    padding: 10px 10px;
+    box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    transition: 0.5s;
+    background: #ffffff;
+}
+.footer .container .about .detail .icon li:hover
+{
+   background: #1ded2b; 
+   color: #fff;
+   border-radius: 5px;
+   font-size: 16px;
+}
+.footer .container .account
+{
+    margin-right: 90px;
+    margin-top: 30px;
+}
+.footer .container .account h3
+{
+    font-size: 32px;
+    color: #ffffff;
+}
+.footer .container .account ul
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer .container .account ul li
+{
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .account ul li:hover 
+{
+    color: #1ded2b;
+}
+.footer .container .account ul li a
+{
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    position: relative;
+    
+}
+
+.footer .container .account ul li a:hover 
+{
+    color: #1ded2b;
+}
+.footer .container .page
+{
+    margin-right: 90px;
+    margin-top: 30px;
+}
+.footer .container .page h3
+{
+    font-size: 32px;
+    color: #ffffff;
+}
+.footer .container .page ul
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer .container .page ul li a
+{
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .page ul li a:hover 
+{
+    color: #1ded2b;
+}
+.Search_box1 .dd
+{
+    margin-left: 700px;
+    margin-top: -7%;
+    
+}
+.Search_box1 .dd input
+{
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid #59e46c;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    
+}
+ .Search_box1 .dd button
+{
+    border: 3px solid #59e46c;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #59e46c;
+    color: aliceblue;
+
+}
+.logo1
+{
+    margin-top: -30%;
+    margin-bottom: -20%;
+}
+.admin
+{
+    margin-bottom: 10%;
+    color: #0e0e0e;
+}
+@media  (max-width: 360px) 
+{
+    .footer
+{
+    padding: 30px 40px;
+    width: 100%;
+    background: #000000;
+    flex-direction: row;
+}
+    .footer .container
+    {
+        flex-direction: column;
+    }
+    .Search_box1
+    {
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+    .logo1
+{
+    margin-top: -120px;
+    margin-bottom: -20%;
+
+}
+ .detail p
+{
+    display:none;
+    
+}
+
+.footer .container .about .detail .icon
+{
+    margin-top: -30px;
+}
+}
+.Search_box1 .ss
+{
+    margin-left: 350px;
+    margin-top: -7%;
+}
+.Search_box1 .ss input
+{
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid #59e46c;
+    width: 300px;
+    color: rgb(0, 0, 0);
+}
+ .Search_box1  button
+{
+    border: 3px solid #59e46c;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #59e46c;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 280px;
+
+}

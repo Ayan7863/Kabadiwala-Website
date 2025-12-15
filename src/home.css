@@ -1,0 +1,276 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+   
+        
+    
+}
+.home
+{
+    background: url(https://scrapbazar.in/public/13.png);
+}
+.top_banner
+{
+    padding: 30px 40px;
+    width: 100%;
+    /* background: #d6f8d9; */
+    margin-top: -30px;
+}
+.top_banner .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.top_banner .container .detail
+{
+    margin-top: 8%;
+    margin-left: 30px;
+}
+.top_banner .container .detail h2
+{
+    font-size: 72px;
+    color: #010f1c;
+    margin-bottom: 40px;
+}
+
+.top_banner .container .detail .link
+{
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #010f1c;
+    background: #a9e9ab ;
+    transition: 0.5s;
+    font-size: xx-large;
+}
+.top_banner .container .detail .link:hover
+{
+    background: #6bf174;
+    /* font-size: larger; */
+}
+
+/* .product_type
+{
+    padding: 30px 40px;
+    width: 100%;
+}
+.product_type .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.product_type .container .box
+{
+    padding: 10px 20px;
+    margin-left: 10px;
+} */
+.about
+{
+    padding: 40px 50px;
+    width: 100%;
+}
+.about .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about .container .box
+{
+    padding: 20px 30px;
+    display: flex;
+    background: #ecf7f0;
+    width: 400px;
+    height: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about .container .box .icon
+{
+    color: #e44c8c;
+    font-size: 32px;
+    margin-top: 10px;
+}
+.about .container .box .detail
+{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.about .container .box .detail h3
+{
+    color: #010f1c;
+}
+.about .container .box .detail p
+{
+
+    color: #413a3a;
+}
+.about .container .box:hover
+{
+
+    background: #88ea97;
+    /* font-size: large; */
+}
+.whyimg h1
+{
+    text-align: center;
+    font-weight: 700;
+}
+.pickimg
+    img{
+        width: 100%;
+    }
+
+   @media (max-width: 360px)
+  {
+    .home
+{
+    background: url(https://scrapbazar.in/public/13.png);
+}
+     .top_banner
+     {
+         padding: 30px 40px;
+         width: 100%;
+        
+         margin-top: 2px;
+     }
+     .top_banner .container
+     {
+         max-width: 100%;
+         display: flex;
+         justify-content: space-between;
+     }
+     .top_banner .container .detail
+     {
+         margin-top: 8%;
+         margin-left: -30px;
+     }
+     .top_banner .container .detail h2
+     {
+         font-size: 22px;
+         color: #010f1c;
+         margin-bottom: 40px;
+         
+     }
+     
+     .top_banner .container .detail .link
+     {
+         margin-top: 20px;
+         /* padding: 10px 20px; */
+         text-decoration: none;
+         border-radius: px;
+         color: #010f1c;
+         background: #fff ;
+         transition: 0.5s;
+         font-size: 8px;
+
+     }
+     .top_banner .container .detail .link:hover
+     {
+         background: #6bf174;
+         font-size: larger;
+     }
+     
+     /* .product_type
+     {
+         padding: 30px 40px;
+         width: 100%;
+     }
+     .product_type .container
+     {
+         max-width: 100%;
+         display: flex;
+         justify-content: space-between;
+     }
+     .product_type .container .box
+     {
+         padding: 10px 20px;
+         margin-left: 10px;
+     } */
+     .about
+ {
+     padding: 40px 50px;
+     width: 100%;
+     margin-left: -50px;
+ }
+ .about .container
+ {
+     max-width: 100%;
+     display: flex;
+     justify-content: space-between;
+     
+ }
+ .about .container .box
+ {
+    padding: 10px 30px  30px;
+    display: flex;
+    background: #ecf7f0;
+    width: calc(50% -10px);
+    height: 130px;
+    /* border-radius: 30px 30px 30px 30px; */
+    cursor: pointer;
+    margin-left: 10px;
+ }
+ 
+ .about .container .box .icon
+ {
+     color: #e44c8c;
+     font-size: smaller;
+     margin-top: 10px;
+     margin-left: -10px;
+ }
+ .about .container .box .detail
+ {
+     margin-top: 2px;
+     margin-left: 5px;
+     
+     
+ }
+ .about .container .box .detail h3
+ {
+     color: #010f1c;
+     font-size: xx-small;
+ }
+ .about .container .box .detail p
+ {
+ 
+     color: #413a3a;
+     font-size: xx-small;
+ }
+ 
+ .about .container .box:hover
+ {
+ 
+     background: #88ea97;
+     /* font-size: large; */
+ }
+     
+     .whyimg h1
+     {
+         text-align: center;
+         font-weight: 700;
+         font-size: small;
+     }
+     .pickimg
+     img{
+         width: 100%;
+     }
+     .whyimg
+     img{
+         width: 100%;
+     }
+     .img_box
+     img{
+         width: 100%;
+         margin-right: -300px;
+     }
+   
+   }
+ 
