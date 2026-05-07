@@ -15,7 +15,6 @@ const Scraprates = () => {
   var todayDate = new Date().toISOString().slice(0, 10);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   useEffect(() => {
     const getuser = localStorage.getItem('user_login');
