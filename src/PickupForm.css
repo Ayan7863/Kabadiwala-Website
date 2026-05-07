@@ -1,0 +1,62 @@
+/* CSS for the Pickup Request Form with Different Class Names */
+
+/* Form Container */
+.pick1
+{
+  background: url(https://scrapbazar.in/public/13.png);
+}
+.pickup-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Heading */
+.pickup-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Fields */
+.pickup-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.pickup-file {
+  margin-bottom: 20px;
+}
+
+/* Submit Button */
+.pickup-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pickup-button:hover {
+  background-color: #0056b3;
+}
+
+/* Thank You Message */
+.thank-you-message {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 20px;
+}

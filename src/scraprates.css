@@ -1,0 +1,214 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.scrap
+{
+    background: url(https://scrapbazar.in/public/13.png);
+}
+.Free
+{
+   padding: 10px 30px; 
+   width: 100%;
+   background: #fafafb;
+   display: flex; 
+   margin-top: -20px; 
+}
+
+.Free h1
+{
+    margin-left: 10px;
+    color: #000000ef;
+    margin-top: 12px;
+    /* font-size: 14px; */
+    font-weight: 500;
+    text-shadow: 2px 2px #409745;
+}
+.Free .right h3
+{
+    margin-right: 10px;
+    color: #000000ef;
+    margin-top: 12px;
+    /* font-size: 14px; */
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.Free .right
+{
+    display: flex;
+    margin-left: 250px;
+    justify-content: space-between;
+    
+}
+.Free .right button
+{
+    height: 50px;
+}
+.Free .right .user_icon
+{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+.pls
+{
+    cursor: pointer;
+    text-align: center;
+    margin-top: 200px;
+    font-size: xx-large;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 2000000px;
+    color: #010f1c;
+    background: #fff ;
+    transition: 0.5s; 
+
+}
+.pls:hover
+{
+    background: #6bf174;
+}
+.inputs
+{
+    padding: 40px 50px;
+    width: 50%;
+    max-width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    display: flex;
+    background: #ffffff;
+    /* width: 400px;
+    height: 90px; */
+    border-radius: 80px;
+    cursor: pointer;
+     margin-left: 40px; 
+    box-shadow: 7px 5px #9fe1a0;
+    border: 2px solid;
+    float: left;
+    margin-top: 27px;
+}
+.inputs p
+{
+    margin-top: 100px;
+    font-weight: 600;
+}
+.inputs input
+{
+     height: 20px;
+    width: 20px; 
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.inputs1
+{
+    padding: 40px 50px;
+    width: 50%;
+    max-width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    display: flex;
+    background: #ffffff;
+    /* width: 400px;
+    height: 90px; */
+    border-radius: 80px;
+    cursor: pointer;
+      margin-left: 800px; 
+     
+    box-shadow: 7px 5px #9fe1a0;
+    border: 2px solid;
+    
+}
+.inputs1 p
+{
+    margin-top: 100px;
+    font-weight: 600;
+}
+.inputs1 input
+{
+     height: 20px;
+    width: 20px; 
+    margin-top: 30px;
+    cursor: pointer;
+}
+ .Search_box
+{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.Search_box input
+{
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid #59e46c;
+    width: 300px;
+    color: rgb(10, 12, 13);
+}
+ .Search_box button
+{
+    border: 3px solid #59e46c;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #59e46c;
+    color: aliceblue;
+  
+
+}
+.logout button 
+{
+    background: #59e46c;
+    border: 5px solid green;
+    margin-left: 50px;
+}
+.logout p
+{
+    margin-bottom: -1%;
+    color: #010f1c;
+    font-weight: 800;
+}
+.logout  :hover
+{
+    background: #f9f9f9;
+    
+}
+.cont button
+{
+    text-align: center;
+    margin-left: 44%;
+    font-size: xx-large;
+   position: static;
+   margin-top: 70px;
+    
+}
+.cont button:hover
+{
+    background: rgb(183, 186, 227);
+    color: #000000;
+}
+@media  (max-width: 360px) 
+{
+    .inputs ,.inputs1{
+        flex-direction: column;
+        float: none;
+        align-items: center;
+    }
+    .inputs1{
+        margin-left: 400px;
+    }
+    .inputs{
+        margin-left: 400px;
+    }
+    .Free{
+        margin-top: 100px;
+    }
+}

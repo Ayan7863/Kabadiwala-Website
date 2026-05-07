@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    
+}
+.the h4
+{
+    color: #50fb66;
+    margin-left: 60px;
+    font-weight: 300;
+}
+.wel h1
+{
+    margin-left: 60px;
+    font-weight: 700;
+}
+.img_box1 img{
+    margin-left: 700px;
+    margin-top: -300px;
+}
+ .ab p
+{
+    margin-left: 60px;
+    text-align:justify;
+    text-justify:inter-word;
+    
+}
+.cd p
+{
+    margin-left: 60px;
+    text-align:justify;
+    text-justify:inter-word;
+}
+.about1
+{
+    width: 50%;
+    background: url(https://scrapbazar.in/public/13.png);
+}

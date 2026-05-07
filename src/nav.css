@@ -1,0 +1,151 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  /* Set a variable for nav height */
+  :root {
+    --nav-height: 80px;
+  }
+  
+  /* Common styles for both desktop and mobile */
+  .fix {
+    width: 100%;
+    height: var(--nav-height);
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    border-radius: 50px 20px;
+  }
+  
+  .header {
+    width: 100%;
+    padding: 50px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(24, 234, 5);
+  
+  }
+  
+  .header .container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  
+  .nav img {
+    margin-bottom: -20%;
+    margin-top: -20%;
+    display: flex;
+    
+  }
+  
+  .nav ul {
+    display: flex;
+  }
+  
+  .nav ul li {
+    margin-left: 50px;
+    list-style: none;
+    font-size: x-large;
+    margin-top: 35px;
+  }
+  
+  .nav ul li .link {
+    text-decoration: none;
+    color: #010f1c;
+    transition: 0.5s;
+    font-weight: 1000;
+  }
+  
+  .nav ul li .link:hover {
+    color: #f6faf7;
+  }
+  
+  .pick .link4 {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #010f1c;
+    background: #fff;
+    transition: 0.5s;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .pick .link4:hover {
+    background: #0f5d14;
+    color: #fff;
+  }
+  .nav .hamburger-icon
+  {
+    display: none;
+  }
+  .nav .img45
+  {
+    display: none;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .header {
+      height: auto;
+    }
+  
+    .nav img {
+      display: none;
+    }
+  
+    .nav .hamburger-icon {
+      display: block;
+      font-size: 1.5em;
+      cursor: pointer;
+      margin-top: -20px;
+    }
+  
+    .nav ul {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: var(--nav-height);
+      left: -100%;
+      width: 70%;
+      height: 50%;
+      max-width: 300px;
+      background-color: rgb(24, 234, 5);
+      border-radius: 0 0 15px 15px;
+      transition: left 0.3s ease;
+    }
+  
+    .nav ul.mobile-menu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .nav ul li {
+      margin: 0;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .nav ul.show-menu {
+      left: 0;
+      margin-top: 40px;
+    }
+  
+    .pick {
+      margin-top: 20px;
+      
+    }
+   .nav .mobile-menu img
+   {
+  display: inline;
+ margin-top: -150px;
+ margin-bottom: -170px;
+ margin-left: 40px;
+   }
+  }
+  
